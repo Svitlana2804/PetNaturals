@@ -17,7 +17,7 @@ export default function FirstScreen(){
               Your cat deserves the best pet supplement the world has to offer.
               That's what's in the package.
             </h3>
-            <ul>
+            <ul className="firstScreenSection__list">
               <li>
                 <p>Features a patented calming blend</p>
               </li>

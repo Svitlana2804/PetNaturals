@@ -37,7 +37,13 @@ z-index: 1;
             width: 440px;
         
            }
-           ul{
+          &__list{
                list-style: none;
+               & li{
+                background-image: url(../../assets/pngwing.com.webp);
+                background-repeat: no-repeat;
+                background-size: 20px ;
+                // padding-left: 15px;
+               }
            }
         }
