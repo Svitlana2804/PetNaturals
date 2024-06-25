@@ -1,13 +1,41 @@
 import "../FirstScreen/FirstScreen.scss"
+import Cat1  from "../../assets/pngegg-1.webp"
+import Cat2 from "../../assets/pngegg-2.webp"
+import Corm from "../../assets/5-1.webp"
 import Header from "./Header/Header"
 
 export default function FirstScreen(){
     return (
-        <>
-            <div className="firstScreenSection">
-                <Header/>
-            <h1>FirstScreen</h1>
-            </div>
-        </>
-    )
+      <>
+        <div className="firstScreenSection">
+          <Header />
+          <h1 className="firstScreenSection__title">
+            Pet Naturals of Vermont, Calming, For Cats
+          </h1>
+          <div className="firstScreenSection__box">
+            <h3>
+              Your cat deserves the best pet supplement the world has to offer.
+              That's what's in the package.
+            </h3>
+            <ul>
+              <li>
+                <p>Features a patented calming blend</p>
+              </li>
+              <li>
+                <p>Doesn’t contain herbal ingredients</p>
+              </li>
+              <li>
+                <p>Helps manage everyday stress</p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <img className="firstScreenSection__img" src={Cat1} alt="cat1"></img>
+            <img className="firstScreenSection__img" src={Cat2} alt="cat2"></img>
+            <img src={Corm} alt="corm" ></img>
+          </div>
+          <div></div>
+        </div>
+      </>
+    );
 }
