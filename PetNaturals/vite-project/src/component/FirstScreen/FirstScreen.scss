@@ -1,14 +1,14 @@
-           .firstScreenSection{
-background-image: url(../../assets/—Pngtree—green-fresh-sky-grass-illustration_920699-2.webp);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-//  max-width: 1140px;
-height: 100vh;
-//  filter: brightness(80%);
-position: relative;
-z-index: 1;
-&::before{
+.firstScreenSection {
+  background-image: url(../../assets/—Pngtree—green-fresh-sky-grass-illustration_920699-2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ padding: 0 10px;
+  height: 100vh;
+  //  filter: brightness(80%);
+  position: relative;
+  z-index: 1;
+  &::before {
     content: "";
     position: absolute;
     top: 0;
@@ -17,33 +17,76 @@ z-index: 1;
     height: 100%;
     // background-image: url(../../assets/—Pngtree—green-fresh-sky-grass-illustration_920699-1.webp);
     z-index: 2;
-}
-&__title{
-    color:#F9E994;
+  }
+  &__title {
+    color: #f9e994;
     font-size: 52px;
     width: 578px;
     text-align: center;
     margin: 0 auto;
     z-index: 5;
-    filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-           }
-           h3{
-               color:#F6F7E4;
-               font-size: 26px;
-               filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-               padding-bottom: 60px;
-           }
-           &__box{
-            width: 440px;
-        
-           }
-          &__list{
-               list-style: none;
-               & li{
-                background-image: url(../../assets/pngwing.com.webp);
-                background-repeat: no-repeat;
-                background-size: 20px ;
-                // padding-left: 15px;
-               }
-           }
-        }
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  h3 {
+    color: #f6f7e4;
+    font-size: 26px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding-bottom: 60px;
+  }
+  &__box {
+    width: 400px;
+    text-align: start;
+  }
+  &__list {
+    padding: 35px 0 35px 35px;
+    list-style: none;
+    width: 270px;
+    border-radius: 10px;
+    background-color: #7fb3e1;
+    & li {
+      background-image: url(../../assets/pngwing.com.webp);
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      background-size: 15px;
+      color: #dfe4de;
+      font-size: 22px;
+      line-height: 1.1;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    p{
+        width:250px;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    // width: 100%;
+    // height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    &.corm {
+    //   margin: 0 auto;
+    top:57%;
+    left:50%;
+    transform: translate(-50%, -50%);
+      max-width: 388px;
+      z-index: 3;
+    }
+    &.catOne {
+        top:62%;
+        left:34%;
+        transform: translate(-50%, -50%);
+      max-width: 320px;
+      z-index: 4;
+    }
+    &.catTwo {
+         top:62%;
+        left:67%;
+        transform: translate(-50%, -50%);
+      max-width: 320px;
+      z-index: 4;
+    }}
+  }
+

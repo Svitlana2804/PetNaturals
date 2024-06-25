@@ -30,9 +30,9 @@ export default function FirstScreen(){
             </ul>
           </div>
           <div>
-            <img className="firstScreenSection__img" src={Cat1} alt="cat1"></img>
-            <img className="firstScreenSection__img" src={Cat2} alt="cat2"></img>
-            <img src={Corm} alt="corm" ></img>
+            <img className="firstScreenSection__img catOne" src={Cat1} alt="cat1"></img>
+            <img className="firstScreenSection__img catTwo" src={Cat2} alt="cat2"></img>
+            <img className="firstScreenSection__img corm" src={Corm} alt="corm" ></img>
           </div>
           <div></div>
         </div>
