@@ -7,11 +7,11 @@ export default function Header() {
       <div className="header">
         <img className="header__logo" src={Logo} alt="logo"></img>
         <img className="header__sky" src={Sky} alt="sky"></img>
-        <ul>
-          <li>Order</li>
-          <li>About</li>
-          <li>Result</li>
-        </ul>
+        <nav>
+          <a href="#section1">Order</a>
+          <a href="#section2">About</a>
+          <a href="#section3">Result</a>
+        </nav>
       </div>
     </>
   );

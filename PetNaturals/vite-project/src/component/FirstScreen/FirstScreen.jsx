@@ -7,7 +7,7 @@ import Header from "./Header/Header"
 export default function FirstScreen(){
     return (
       <>
-        <section className="firstScreenSection">
+        <section className="firstScreenSection" id="section1">
           <Header />
           <h1 className="firstScreenSection__title">
             Pet Naturals of Vermont, Calming, For Cats

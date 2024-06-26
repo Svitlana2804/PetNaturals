@@ -5,7 +5,7 @@ import Logo2 from "../../assets/logo2.webp";
 export default function SecondScreen() {
   return (
     <>
-      <section className="secondScreenSection">
+      <section className="secondScreenSection" id="section2">
         <h2 className="secondScreenSection__title">From the manufacturer</h2>
         <div className="secondScreenSection__container">
           <div className="secondScreenSection__box">
