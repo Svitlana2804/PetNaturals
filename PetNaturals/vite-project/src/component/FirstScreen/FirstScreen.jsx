@@ -7,7 +7,7 @@ import Header from "./Header/Header"
 export default function FirstScreen(){
     return (
       <>
-        <div className="firstScreenSection">
+        <section className="firstScreenSection">
           <Header />
           <h1 className="firstScreenSection__title">
             Pet Naturals of Vermont, Calming, For Cats
@@ -35,7 +35,7 @@ export default function FirstScreen(){
             <img className="firstScreenSection__img corm" src={Corm} alt="corm" ></img>
           </div>
           <div></div>
-        </div>
+        </section>
       </>
     );
 }
