@@ -30,7 +30,7 @@ export default function FirstScreen(){
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="firstScreenSection__card">
               <img
                 className="firstScreenSection__img catOne"
                 src={Cat1}

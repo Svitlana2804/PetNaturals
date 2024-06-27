@@ -32,14 +32,14 @@
     color: #f6f7e4;
     font-size: 26px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    padding-bottom: 15%;
+    padding-bottom: 5%;
   }
   &__box {
     width: 400px;
     text-align: start;
   }
   &__list {
-    padding: 35px 0 35px 35px;
+    padding: 25px 0 25px 25px;
     list-style: none;
     width: 270px;
     border-radius: 10px;
@@ -58,7 +58,9 @@
         width:250px;
     }
   }
-
+// &__card{
+//   position: relative;
+// }
   &__img {
     position: absolute;
     top: 10%;
@@ -68,21 +70,21 @@
     object-fit: cover;
     z-index: 1;
     &.corm {
-    top:57%;
+    top:62%;
     left:50%;
     transform: translate(-50%, -50%);
       max-width: 388px;
       z-index: 3;
     }
     &.catOne {
-        top:62%;
+        top:69%;
         left:34%;
         transform: translate(-50%, -50%);
       max-width: 320px;
       z-index: 4;
     }
     &.catTwo {
-         top:62%;
+         top:69%;
         left:67%;
         transform: translate(-50%, -50%);
       max-width: 320px;
@@ -90,7 +92,7 @@
     }}
     &__form{
         position: absolute;
-        top: 55%;
+        top: 64%;
         left: 81%;
         transform: translate(-50%, -50%);
         z-index: 3;
@@ -121,6 +123,7 @@
             background-color: #A1D337;
             color: #FFFF;
             font-size: 30px;
+            cursor: pointer;
            }
         &_top{
           display: flex;
@@ -162,5 +165,6 @@ display: flex;
 #today_date{
   color:#444444;
   font-size: 18px;
-  height: 30px;
+  height: 50px;
+  padding-top: 7%;
 }
