@@ -1,64 +1,10 @@
-// .thirdScreenSection {
-//   background-image: url(../../assets/fon-grow.webp);
-//   background-repeat: no-repeat;
-//   background-size:cover;
-//   background-position: center;
-//   padding: 0 10px;
-//   height: 80vh;
-//   &__title {
-//     font-size: 52px;
-//     text-align: center;
-//     margin: 0 auto;
-//     padding: 100px 0 60px;
-//     color: #537d13;
-//     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-//   }
-//   &__box {
-//     display: flex;
-//     justify-content: center;
-    
-//     &_img {
-   
-//       max-width: 250px;
-//       max-height: 250px;
-//     }
-//     &_text {
-//       position: relative;
-//       display:inline-block ;
-//       padding: 20px 40px;
-//       margin: 0 60px;
-//       font-size: 18px;
-//       color: #483C08;
-//       text-align: left;
-// filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-//       // clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-//       &_info {
-//           width: 500px;
-//       }
-//     }
-//     &_text::before {
-       
-//             content: '';
-//             position: absolute;
-//             top: -5px;
-//             left: -5px;
-//             right: -5px;
-//             bottom: -5px;
-//             background: none;
-//             border: 20px solid #D4DF6D;
-           
-//             clip-path: inherit;
-//   }
-// }
-// }
 .thirdScreenSection {
   background-image: url(../../assets/fon-grow.webp);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   padding: 0 10px;
-  height: 100vh;
-
+  height: 80vh;
   &__title {
     font-size: 52px;
     text-align: center;
@@ -67,37 +13,93 @@
     color: #537d13;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
-
   &__box {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+    justify-content: center;
+    
     &_img {
+   
       max-width: 250px;
+      max-height: 250px;
     }
-
     &_text {
-     
-       &_info{
- padding: 20px;
-        font-size: 18px;
-        color: #483c08;
-       width: 600px;
-      height: 300px;
-        box-sizing: border-box;
-       }
-      .thirdScreenSection__svg {
-        width: 100%;
-        height: 100%;
-      }
+      position: relative;
+      display:inline-block ;
+      padding: 20px 40px;
+      margin: 0 60px;
+      font-size: 18px;
+      color: #483C08;
+      text-align: left;
+       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-      .thirdScreenSection__polygon {
-        fill: none;
-        stroke: #d4df6d;
-        stroke-width: 20px;
+      // clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+      &_info {
+          width: 500px;
+         filter: drop-shadow(0px 4px 4px rgba(212, 223, 109, 1));
       }
-
     }
+    &_text::before {
+       
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            background: none;
+            border: 20px solid #D4DF6D;
+           border-radius: 5px;
+            clip-path: inherit;
   }
 }
+}
+// .thirdScreenSection {
+//   background-image: url(../../assets/fon-grow.webp);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   padding: 0 10px;
+//   height: 100vh;
+
+//   &__title {
+//     font-size: 52px;
+//     text-align: center;
+//     margin: 0 auto;
+//     padding: 100px 0 60px;
+//     color: #537d13;
+//     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+//   }
+
+//   &__box {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+
+//     &_img {
+//       max-width: 250px;
+//     }
+
+//     &_text {
+     
+//        &_info{
+//  padding: 20px;
+//         font-size: 18px;
+//         color: #483c08;
+//        width: 600px;
+//       height: 300px;
+//         box-sizing: border-box;
+//        }
+//       .thirdScreenSection__svg {
+//         width: 100%;
+//         height: 100%;
+//       }
+
+//       .thirdScreenSection__polygon {
+//         fill: none;
+//         stroke: #d4df6d;
+//         stroke-width: 20px;
+//       }
+
+//     }
+//   }
+// }

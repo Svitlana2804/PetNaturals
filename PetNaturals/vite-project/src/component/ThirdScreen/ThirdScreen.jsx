@@ -6,12 +6,12 @@ export default function ThirdScreen() {
       <h2 className="thirdScreenSection__title">Best Uses for Calming Chews</h2>
       <div className="thirdScreenSection__box">
         <div className="thirdScreenSection__box_text">
-          <svg viewBox="0 0 250 250" className="thirdScreenSection__svg">
-            <polygon
+          {/* <svg viewBox="0 0 250 250" className="thirdScreenSection__svg"> */}
+            {/* <polygon
               points="10,190 310,190 360,100 310,10 10,10"
               className="thirdScreenSection__polygon"
-            />
-            <foreignObject x="20" y="20" width="760" height="360">
+            /> */}
+            {/* <foreignObject x="20" y="20" width="760" height="360"> */}
               <p className="thirdScreenSection__box_text_info">
                 Car rides. Vet visits. Thunderstorms. Boarding. Parties. These
                 are just a handful of times when Calming chews may come in
@@ -26,8 +26,8 @@ export default function ThirdScreen() {
                 Calming is safe for unique stress inducing events and for
                 long-term use to help manage everyday stress.
               </p>
-            </foreignObject>
-          </svg>
+            {/* </foreignObject>
+          </svg> */}
         </div>
         <img
           className="thirdScreenSection__box_img"
