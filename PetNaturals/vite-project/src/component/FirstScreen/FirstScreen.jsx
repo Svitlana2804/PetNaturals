@@ -71,7 +71,7 @@ export default function FirstScreen(){
                 placeholder="+38(0__)___-__-__"
               />
               <btn className="firstScreenSection__form_btn">ORDER</btn>
-              <div id="today_date"> script дати</div>
+              <div id="today"> дата</div>
             </div>
           </div>
         </section>
