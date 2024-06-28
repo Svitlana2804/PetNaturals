@@ -1,5 +1,8 @@
-document.addEventListener("DOMContentLoaded", function () {
+
+// let countdown;
+  document.addEventListener("DOMContentLoaded", function () {
   // Встановлюємо час зворотного відліку в мілісекундах (2 години = 2 * 60 * 60 * 1000 мс)
+ 
   let countdownTime = 2 * 60 * 60 * 1000;
   let countdownElement = document.getElementById("countdown");
 
@@ -25,3 +28,4 @@ document.addEventListener("DOMContentLoaded", function () {
   let countdownInterval = setInterval(updateCountdown, 1000);
   updateCountdown();
 });
+
