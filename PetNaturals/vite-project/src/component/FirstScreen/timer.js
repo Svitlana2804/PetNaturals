@@ -13,13 +13,13 @@ document.addEventListener("DOMContentLoaded", function () {
     minutes = minutes < 10 ? "0" + minutes : minutes;
     seconds = seconds < 10 ? "0" + seconds : seconds;
 
-    countdownElement.innerHTML = `${hours}:${minutes}:${seconds}`;
+    countdown.innerHTML = `${hours}:${minutes}:${seconds}`;
 
     if (countdownTime > 0) {
       countdownTime -= 1000;
     } else {
       clearInterval(countdownInterval);
-      countdownElement.innerHTML = "Час вийшов!";
+      countdown.innerHTML = "Час вийшов!";
     }
   }
   let countdownInterval = setInterval(updateCountdown, 1000);
