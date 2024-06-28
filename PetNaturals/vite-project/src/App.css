@@ -1,7 +1,6 @@
-/* @import "./fonts/Roboto-Bold.ttf";
-@import "./fonts/Roboto-Regular.ttf"; */
 
 #root {
+  font-family: 'Roboto', sans-serif;
   max-width: 1140px;
   margin: 0 auto;
   text-align: center;
