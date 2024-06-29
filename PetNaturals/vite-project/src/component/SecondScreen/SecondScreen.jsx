@@ -1,4 +1,4 @@
-import "./SecondScreen.scss";
+import "../../css/SecondScreen.scss";
 import Sleep from "../../assets/sleep.webp";
 import Lacom from "../../assets/lacom.webp";
 import Logo2 from "../../assets/logo2.webp";
@@ -14,7 +14,7 @@ export default function SecondScreen() {
               src={Sleep}
               alt="cat-sleep"
             ></img>
-            <div  className="secondScreenSection__info">
+            <div className="secondScreenSection__info">
               <h3 className="secondScreenSection__info_title">
                 Keep Calm and Carry On
               </h3>
